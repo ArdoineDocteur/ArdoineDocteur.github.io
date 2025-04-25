@@ -5,17 +5,55 @@
 		<title>Website Name</title>
 	</head>
 
-	<body>
+	<body style="background-color: gray;"> <!--NOTE: Changing background color soon to adhere to color scheme-->
 		<!--NOTE: BElow references a n x 2 grid that I will refer to as matrix A. A(n,1) will be a 1 x 2 grid that I will refer to as B. B(1,1) will reference a 2 x 1 grid that I will reference as C. 
 		B(1,2) will reference an image object. 
 		-->
-		<div style="background-color: yellow;display: grid; grid-template-rows: repeat(3,1 fr)">
-			<div id="A(1,1)" style="display: grid; grid-template-columns: repeat(2,1 fr)">
-				 <div id="B(1,1)" style="background-color: green;display: grid; grid-template-rows: repeat(2,1 fr)">
+		<div style="background-color: purple;display: grid; grid-template-columns: repeat(3,1fr)">
+			<!--NOTE: Will change into a hrefs soon-->
+			<h3>Home</h3>
+			<h3>About</h3>
+			<h3>Add more headers if neccessary</h3>
+		</div>
+		<!--<video controls width="250">
+			<source src="<<enter link to video here>>" type="<<specify vid type here>>" /> -->
+		</video>
+		<p style="text-align: center">Introduction</p>
+		<div style="display: grid; grid-template-rows: repeat(3,1fr)">
+			<div id="A(1,1)" style="display: grid; grid-template-columns: repeat(2,1fr)">
+				 <div id="B(1,1)" style="background-color: green;display: grid; grid-template-rows: repeat(2,1fr)">
 					 <h1>Component Name</h1>
 					 <p>Component Desc</p>
 				 </div>
-				 <div id="B(1,2)" style="background-color: blue;padding: 5px;display: grid; grid-template-columns: repeat(2,0.5 fr)">
+				 <div id="B(1,2)" style="background-color: blue;padding: 5px; margin-left: 15px;display: grid; grid-template-columns: repeat(2,2fr)">
+					 <div>Image goes here</div><!---img class="Image associated with class" src=""/>-->
+				 </div>
+			  </div>
+			</div>
+
+
+		</div>
+		<div style="display: grid; grid-template-rows: repeat(3,1fr)">
+			<div id="A(1,1)" style="display: grid; grid-template-columns: repeat(2,1fr)">
+				 <div id="B(1,1)" style="background-color: green;display: grid; grid-template-rows: repeat(2,1fr)">
+					 <h1>Component Name</h1>
+					 <p>Component Desc</p>
+				 </div>
+				 <div id="B(1,2)" style="background-color: blue;padding: 5px; margin-left: 15px;display: grid; grid-template-columns: repeat(2,2fr)">
+					 <div>Image goes here</div><!---img class="Image associated with class" src=""/>-->
+				 </div>
+			  </div>
+			</div>
+
+
+		</div>
+		<div style="display: grid; grid-template-rows: repeat(3,1fr)">
+			<div id="A(1,1)" style="display: grid; grid-template-columns: repeat(2,1fr)">
+				 <div id="B(1,1)" style="background-color: green;display: grid; grid-template-rows: repeat(2,1fr)">
+					 <h1>Component Name</h1>
+					 <p>Component Desc</p>
+				 </div>
+				 <div id="B(1,2)" style="background-color: blue;padding: 5px; margin-left: 15px;display: grid; grid-template-columns: repeat(2,2fr)">
 					 <div>Image goes here</div><!---img class="Image associated with class" src=""/>-->
 				 </div>
 			  </div>
